@@ -1,4 +1,6 @@
-# Overview
+# Chef Repo
+
+[![Build Status](https://travis-ci.org/sweeperio/chef-repo.svg?branch=master)](https://travis-ci.org/sweeperio/chef-repo)
 
 This is the main chef repo for the sweeper.io organization. Data bags, roles, environments and tests are stored here.
 _**Cookbooks should not be added to this repo.**_
