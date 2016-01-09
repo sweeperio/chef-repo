@@ -1,0 +1,6 @@
+--pattern test/unit/**/*_spec.rb
+--default-path test/unit
+--order rand
+--color
+--format progress
+--require spec_helper

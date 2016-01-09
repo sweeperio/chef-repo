@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  data_bags_path: data_bags
+  encrypted_data_bag_secret_key_path: .chef/encrypted_data_bag_secret
+  environments_path: environments
+  client_rb:
+    environment: production
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: base
+    run_list:
+      - role[base]
+    attributes:
+      authorization:
+        sudo:
+          users:
+            - vagrant

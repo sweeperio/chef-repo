@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "description": "A common role for all machines",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[base]"
+  ],
+  "default_attributes": {
+    "user": {
+      "ssh_keygen": false
+    },
+    "users": ["pseudomuto"],
+    "ruby": {
+      "versions": ["2.2.3"],
+      "system_version": "2.2.3"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "deploy",
+  "username": {
+    "encrypted_data": "bNTx7goHh2GVGKRLgxzflc+yQGehU0qzWu6ytGxeyPI=\n",
+    "hmac": "axp61c3OWm3//DMNePp8kdwO23Ixll5FYDASOfA23Sg=\n",
+    "iv": "bHu+yZS8RG1ABtfUWLF39g==\n",
+    "version": 2,
+    "cipher": "aes-256-cbc"
+  },
+  "groups": {
+    "encrypted_data": "QDXvSHTKuo3RUcLrucRyEooE6ZZh7Kkn6Kv4ln12EaY=\n",
+    "hmac": "Xr6lAwApb0AxGNdBr1sLRmCuPEdHkLbJ+KLaK/fqrjE=\n",
+    "iv": "7LsQg/HCcveNU5vhXL2tjg==\n",
+    "version": 2,
+    "cipher": "aes-256-cbc"
+  },
+  "comment": {
+    "encrypted_data": "JGq054B8nI387d4y9INp+TS/asCCXgBeyUK7jpKQdsI=\n",
+    "hmac": "fUYp/GEZtoEe6GF0UKyY4dAujJAZM/ceVbmHNoOuJHQ=\n",
+    "iv": "roJpMoguxE6gEAIYw8KHFg==\n",
+    "version": 2,
+    "cipher": "aes-256-cbc"
+  },
+  "system_user": {
+    "encrypted_data": "+a12oNZSycv03B2QjIShWuXIacQCwaAHo70x6Wbu5wA=\n",
+    "hmac": "hed52aXFRtzC5i1RMS3zyvblSSmWh2FI9+80SUd2Rlg=\n",
+    "iv": "TKmTVuvRdCc2JH22PTx6mA==\n",
+    "version": 2,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_keys": {
+    "encrypted_data": "wgCVh16xvpD2f4uF9V7bvio8MkkUbfU7DFL+7YmXdKNTyDzKVTEMgkAPBLt5\n0WrnoxMnUHP4azj6tTyFKbbjI/MoLR+rQo1PlkNHo4+GKOs1hAK3qhWs6TO/\nu/f+LuOp82ccklDpoF/57SuyGx2u6dgVpzqdPLgaH9ajY2YYOL+rQKVoL4Hl\nXppHyKsE2khlzEqZD0hVdzkgqa+Baq4Zj2my4WwS7Jv7hj/dtCAv303Bz0K3\n6vpGdbIivvtnBOuY7+Gxb8yH38W2UYnCS3p6GlDB9OBV4pQFY+6sLV9QJ2CE\nfkP+kD6xxVnjVJNztqZeMG1rlCuFqZwwdRuBTI0rVRduqyODnXsYDMUBQs5J\nyPbrlSCmQcUqIjs3ylBgcnebgDvhZHLubX/RipIlAVRgGCGexwfJnSnaaMqg\n6vgC3CsreYTKNbzVYullsSWMJma3MhAqsGG2zKkuMtwx5LdQgEc7GLa5+QGy\nQk2hfVpreIgiYbDDCL4coSn3nCsj+5jN9uaYH0vcDp/2qYWJqFrEGRqyzsy9\nHDmoLkDlmShZYa77JMGtdvEuIabiDo2jLowQ\n",
+    "hmac": "eSnLWR/o3H8JHJi+XxX6CBMhyQRyQLD8cnrUgopiniQ=\n",
+    "iv": "lbu/3gatoDUDkFNtQkz18Q==\n",
+    "version": 2,
+    "cipher": "aes-256-cbc"
+  }
+}
