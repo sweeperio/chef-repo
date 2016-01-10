@@ -13,12 +13,27 @@ provisioner:
 platforms:
   - name: ubuntu-14.04
 
+common_attrs: &common_attrs
+  authorization:
+    sudo:
+      users:
+        - vagrant
+
+development_env: &development_env
+  client_rb:
+    environment: development
+
 suites:
   - name: base
     run_list:
       - role[base]
     attributes:
-      authorization:
-        sudo:
-          users:
-            - vagrant
+      <<: *common_attrs
+
+  - name: base_development
+    run_list:
+      - role[base]
+    provisioner:
+      <<: *development_env
+    attributes:
+      <<: *common_attrs

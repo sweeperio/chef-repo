@@ -6,7 +6,14 @@
   "cookbook_versions": {
   },
   "default_attributes": {
+    "swpr_ruby": {
+      "versions": ["2.1.8", "2.2.3", "2.3.0"],
+      "system_version": "2.3.0"
+    }
   },
   "override_attributes": {
+    "user": {
+      "ssh_keygen": false
+    }
   }
 }
