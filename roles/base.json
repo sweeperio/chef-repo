@@ -4,16 +4,9 @@
   "chef_type": "role",
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[base]"
+    "recipe[swpr_base]"
   ],
   "default_attributes": {
-    "user": {
-      "ssh_keygen": false
-    },
-    "users": ["pseudomuto"],
-    "ruby": {
-      "versions": ["2.2.3"],
-      "system_version": "2.2.3"
-    }
+    "users": ["pseudomuto"]
   }
 }

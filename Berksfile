@@ -1,3 +1,3 @@
 source "https://berks.sweeper.io"
 
-cookbook "base"
+cookbook "swpr_base"
