@@ -1,6 +1,5 @@
 describe "base role" do
   before do
-    stub_command("which sudo")
     stub_data_bag_item("users", "pseudomuto").and_return(
       id: "pseudomuto",
       comment: "David Muto",

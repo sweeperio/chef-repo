@@ -37,3 +37,13 @@ suites:
       <<: *development_env
     attributes:
       <<: *common_attrs
+
+  - name: dev
+    run_list:
+      - role[dev]
+    provisioner:
+      <<: *development_env
+    attributes:
+      <<: *common_attrs
+      swpr_dev:
+        vagrant_shell: zsh
