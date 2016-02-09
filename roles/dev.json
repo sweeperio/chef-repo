@@ -1,0 +1,21 @@
+{
+  "name": "dev",
+  "description": "A role for development machines",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "role[base]",
+    "recipe[swpr_ruby::chruby]",
+    "recipe[swpr_dev]",
+    "recipe[swpr_dev::golang]",
+    "recipe[swpr_dev::nodejs]",
+    "recipe[swpr_dev::postgresql]",
+    "recipe[swpr_dev::rustlang]"
+  ],
+  "default_attributes": {
+    "memcached": {
+      "listen": "127.0.0.1"
+    }
+  }
+}
+
